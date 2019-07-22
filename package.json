@@ -1,0 +1,24 @@
+{
+  "name": "bigquery-pilot",
+  "version": "1.0.0",
+  "description": "Small Project to test BigQuery API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "Gabriel Morais Silva",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^4.1.3",
+    "@google-cloud/storage": "^3.0.2",
+    "body-parser": "^1.19.0",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.19.1"
+  }
+}
